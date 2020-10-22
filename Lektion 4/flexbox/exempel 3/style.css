@@ -1,0 +1,20 @@
+@import "../standard.css";
+
+html, body {
+    padding: 0;
+}
+
+
+
+.box {
+height: 100vh;
+display: flex;
+background: pink no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+.content-center {
+    margin: auto;
+    text-align: center;
+}

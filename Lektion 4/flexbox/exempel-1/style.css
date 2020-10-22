@@ -12,3 +12,28 @@
 .justify-content {
     justify-content: space-between;
 }
+
+.align-items {
+  /*  align-items: flex-start; */
+}
+
+.flex-directions {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: nowrap;
+}
+
+#child-div1 {
+    flex: 2;
+    order: 1;
+}
+#child-div2 {
+    flex: 1;
+    order: 2;
+}
+#child-div3 {
+    flex: 1;
+    order: 3;
+}

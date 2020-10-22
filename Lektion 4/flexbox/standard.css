@@ -33,3 +33,7 @@ a:hover {
     max-width: 90%;
     margin: auto;
 }
+
+.d-flex {
+    display: flex;
+}

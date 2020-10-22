@@ -1,0 +1,16 @@
+@import"../standard.css";
+
+
+
+#regform > .form-group  {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+
+
+#regform > button {
+    padding: 0.5rem 3rem;
+}
