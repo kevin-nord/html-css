@@ -1,1 +1,14 @@
-@import "../standard.css"
+@import "../standard.css";
+
+.box {
+    padding: 1rem;
+    flex-basis: 30%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
