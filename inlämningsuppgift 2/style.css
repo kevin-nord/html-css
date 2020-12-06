@@ -1,0 +1,276 @@
+.joodheader-bg {
+  background-image: url(images/JoodBG.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50% 100%;
+  height: 90vh;
+}
+
+.btn-yellow {
+  background-color: #FFBB00;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.8rem;
+  margin-left: 2rem;
+}
+
+.btn-yellow:hover {
+  background-color: #48ff00a4;
+}
+
+.nav-item {
+  margin-left: 1.1rem;
+}
+
+.nav-item a {
+  color: white !important;
+  font-weight: 550;
+}
+
+.nav-item a:hover {
+  color: #FFBB00 !important;
+}
+
+.nav-item a:hover:hover::after {
+  content: '';
+  position: absolute;
+  width: 1.75rem;
+  display: block;
+  height: 3px;
+  background-color: #FFBB00;
+}
+
+.showcase {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .showcase {
+    text-align: left;
+  }
+}
+
+.showcase .mobileimg {
+  text-align: right;
+}
+
+.showcase .mobileimg img {
+  height: auto;
+  width: 90%;
+}
+
+.showcasetxt h1 {
+  color: white;
+  font-size: 57px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.showcasetxt p {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutus .aboutright {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.btnimg {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+#about-us {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #about-us {
+    text-align: left;
+  }
+}
+
+#about-us .mobileimg {
+  text-align: right;
+}
+
+#about-us .mobileimg img {
+  height: auto;
+  width: 90%;
+}
+
+.aboutright p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #8A8A8A;
+}
+
+.aboutright h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.aboutbtn {
+  background-color: #ffbb0052;
+  color: #FFBB00;
+  padding: 2;
+  border: none;
+}
+
+.featuresbtn {
+  background-color: #ffbb0052;
+  color: #FFBB00;
+  padding: 2;
+  border: none;
+}
+
+.features p {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+}
+
+.features h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.apphead {
+  text-align: center;
+}
+
+.apphead p {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+}
+
+.apphead h1 {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.appstat {
+  text-align: center;
+}
+
+.appstat .loremgray {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+}
+
+.appstat h1 {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.bluetxt h4 {
+  color: #3096FE;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bluetxt p {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.dlplug-bg {
+  background-image: url(images/Bgblue.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 80vh;
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .dlplug-bg {
+    text-align: left;
+  }
+}
+
+.dlplugtxt {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dlplugtxt h1 {
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+.dlplugtxt p {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.form-control {
+  border: 0;
+}
+
+.formtxt {
+  text-align: center;
+}
+
+.formtxt h1 {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+  font-weight: 700;
+}
+
+.formtxt p {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #8A8A8A;
+}
+
+.formbtn {
+  background-color: #3096FE;
+  color: white;
+  height: 3rem;
+  width: 12rem;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.input-lg {
+  height: 14rem;
+}
+
+.footerbg {
+  background-image: url(images/footerbg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: 150px;
+}
+
+.links {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
