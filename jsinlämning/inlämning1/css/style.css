@@ -1,0 +1,8 @@
+.user {
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 3px 5px 13px 0 black;
+    background: rgba(37, 107, 187, 0.74);
+    margin-bottom: 1.3rem;
+}
