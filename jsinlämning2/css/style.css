@@ -1,0 +1,21 @@
+.navbar  {
+    background-color: rgba(28, 152, 190, 0.801);
+    color: white;
+}
+
+
+
+
+.item {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.849);
+    justify-content: space-between;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px 3px rgba(92, 140, 155, 0.699);
+}
+
+.item:hover {
+    box-shadow: 3px 3px 5px 3px rgba(8, 64, 109, 0.699);
+    font-style: italic;
+}
